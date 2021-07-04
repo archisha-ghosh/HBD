@@ -1,6 +1,6 @@
 :root {
-  --primary: #FF2400;
-  --secondary: #DC143C;
+  --primary: #e4825b;
+  --secondary: #b91a1a;
   --dark: #212121;
   --light: #F3F3F3;
 }
@@ -46,8 +46,9 @@ body {
   backface-visibility: hidden;
   overflow: hidden;
   border-radius: 16px;
-  box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 18px 3px rgb(243 2 2 / 42%)%);
 }
+
 
 .card__face--front {
   background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
@@ -95,9 +96,9 @@ body {
   height: 128px;
   margin: 0 auto 30px;
   border-radius: 50%;
-  background-color: rgb(184, 92, 92);
+  background-color: rgb(210 10 10);
   background-image: url(images3.jpg);
-  border: 10px solid rgb(155, 2, 2);
+  border: 10px solid rgb(238 170 131);
   object-fit: cover;
 
 }
